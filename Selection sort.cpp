@@ -61,13 +61,13 @@ int main() {
    
    
    //Menampilkan inputan angka acak di dalam array
-   cout << "Array before Sorting: ";
+   cout << "Array sebelum di Sorting\t: ";
    Hasil (array, jumlah);
    
    //Program sorting menggunakan selection sort
    selectionSort(array, jumlah);
    
    //Menampilkan angka yang telah diurutkan / sorting
-   cout << "Array after Sorting: ";
+   cout << "Hasil array setelah di Sorting\t: ";
    Hasil (array, jumlah);
 }
